@@ -1,0 +1,48 @@
+[tool.robotidy]
+overwrite = true
+spacecount = 2
+indent = 4
+continuation-indent = 2
+line-length = 120
+lineseparator = "auto"
+separator = "space"
+transform = [
+
+    # Alinhamento
+    "AlignKeywordsSection:enabled=True:alignment_type=auto:align_settings_separately=True:handle_too_long=ignore_rest",
+    "AlignTemplatedTestCases:enabled=True",
+    "AlignSettingsSection:argument_indent=2",
+    "AlignVariablesSection:enabled=True:min_width=20",
+
+    # Normalização
+    "NormalizeAssignments:equal_sign_type=remove",
+    "NormalizeComments:enabled=True",
+    "NormalizeNewLines:enabled=True",
+    "NormalizeSettingName:enabled=True",
+    "NormalizeTags:normalize_case=True:preserve_format=True:case=uppercase",
+
+    # Ordem e Organização
+    "OrderSettings:enabled=True",
+    "OrderSettingsSection:imports_order=library,resource,variables",
+    "RemoveEmptySettings:enabled=True",
+
+    # Substituição e Limpeza
+    "ReplaceWithVAR:enabled=True:replace_create_dictionary=True:explicit_local=True:replace_create_list=True",
+    "ReplaceEmptyValues:enabled=True",
+    "ReplaceReturns:enabled=True",
+    "ReplaceRunKeywordIf:enabled=True",
+
+    # Outras Configurações
+    "AddMissingEnd:enabled=True",
+    "DiscardEmptySections:enabled=True:allow_only_comments=False",
+    "GenerateDocumentation:enabled=True:overwrite=False",
+    "IndentNestedKeywords:indent_and=split_and_indent",
+    "RenameKeywords:enabled=True:keyword_case=capitalize_words:ignore_library=False",
+    "RenameTestCases:capitalize_each_word=True",
+
+    # Quebrar Linhas Longas
+    "SplitTooLongLine:enabled=True"
+]
+configure = [
+    "SplitTooLongLine:line_length=120:split_single_value=True:align_new_line=False"
+]

@@ -1,0 +1,10 @@
+robotframework
+robotframework-seleniumlibrary
+robotframework-jsonlibrary
+# robotframework-requests
+PyYAML
+robotframework-tidy
+robotframework-robocop
+robotframework-debuglibrary
+robotframework-fakerlibrary
+setuptools
