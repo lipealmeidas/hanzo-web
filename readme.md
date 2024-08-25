@@ -2,6 +2,9 @@
 
 This repository contains test automation for an e-commerce web platform using the Robot Framework and Selenium. The project aims to validate critical functionalities such as user registration and product purchasing, ensuring that the platform performs as expected under various scenarios.
 
+https://github.com/user-attachments/assets/c4f8048d-7f86-40ac-be27-7a8a3cec00c8
+
+
 ## 📜 Project Description
 
 The primary objective of this project is to automate the testing of key features within an e-commerce platform. This includes automating the user registration process and the entire purchasing flow. The automation is designed to ensure that these processes are executed accurately, enhancing the platform's reliability and user experience.
@@ -48,7 +51,7 @@ To get started with the project, follow these steps:
 
 1. To execute the tests, use the following command:
     ```bash
-    robot -d results tests/practice.automationtesting.robot
+    robot -d /results ./tests/hanzo_web_test.robot
     ```
    This will run the test cases and save the results in the `results/` directory.
 
