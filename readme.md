@@ -19,6 +19,9 @@ The project is organized as follows:
 - **tests/**: Test cases designed to validate the registration and purchasing functionalities.
 - **results/**: Directory where the test execution results are stored. These include detailed reports that can be analyzed post-execution.
 
+![image](https://github.com/user-attachments/assets/37381a80-b44e-4d5b-a8b1-0e0f431c32c5)
+
+
 ## 🛠️ Prerequisites
 
 Before running the project, ensure that the following tools are installed:
