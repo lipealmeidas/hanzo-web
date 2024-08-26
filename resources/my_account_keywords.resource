@@ -19,4 +19,3 @@ Registration And Login Is Successful
     
     Capture Page Screenshot
     Wait Until Element Is Visible  ${BTN_SING_OUT}
-

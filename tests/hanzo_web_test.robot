@@ -3,7 +3,7 @@ Documentation       Test File
 
 Resource            ../config/package.resource
 
-Test Setup          Set Selenium Speed  0.1s
+Test Setup          Set Selenium Speed  0.2s
 Test Teardown       Close Browser
 
 *** Test Cases ***

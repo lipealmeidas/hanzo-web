@@ -21,5 +21,5 @@ ${REG_POSTCODE}                 //input[@id='billing_postcode']
 ${REG_SEARCH_COUNTRY_FIELD}     //input[@id='s2id_autogen1_search']
 
 ${BTN_SUBSCRIBE}                //input[@value='Subscribe']
-${BTN_PLACE_ORDER}              //input[@class='button alt']
+${BTN_PLACE_ORDER}              //input[@id='place_order']
 ${ORDER_DETAIL_PAGE}            //*[contains(text(), 'Thank you. Your order has been received.')]

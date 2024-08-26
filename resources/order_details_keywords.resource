@@ -9,4 +9,4 @@ The System Displays The Order Details
     [Documentation]    Short description.
 
     Wait Until Element Is Visible    ${ORDER_DETAILS_PAGE}
-    Sleep    2     
+    Capture Page Screenshot
